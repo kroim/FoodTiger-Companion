@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Food Tiger Driver",
+    "slug": "food-tiger-driver",
+    "description": "FoodTiger Delivery app. https://foodtiger.site",
+    "extra":{
+      "server": "https://foodtiger.site",
+      "currency":"$"
+    },
+    "privacy": "public",
+    "sdkVersion": "35.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.mobidonia.foodtigerdriver",
+      "buildNumber": "1.1.0",
+      "supportsTablet": false
+    },
+    "android": {
+      "package": "com.mobidonia.foodtigerdriver",
+      "versionCode": 1
+    }
+
+  }
+}
